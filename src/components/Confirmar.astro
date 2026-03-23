@@ -80,11 +80,11 @@
                                 href="https://wa.link/6e7719"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                class="inline-flex items-center justify-center gap-3 px-8 py-3 sm:px-10 sm:py-4 rounded-full shadow-lg transition-all duration-300 confirmar-btn"
+                                class="inline-flex items-center justify-center gap-2 px-2 py-3 border-2 font-crimson text-base uppercase tracking-wider rounded-full transition-all duration-300 hover:scale-105 whitespace-nowrap confirmar-btn"
                                 aria-label="Confirmar asistencia"
                             >
                                 <svg
-                                    class="w-6 h-6 sm:w-7 sm:h-7"
+                                    class="w-5 h-5 flex-shrink-0"
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -96,11 +96,9 @@
                                         d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                                     ></path>
                                 </svg>
-                                <span
-                                    class="font-crimson text-base sm:text-lg font-semibold uppercase tracking-wider"
+                                <span class="font-semibold"
+                                    >Confirmar asistencia</span
                                 >
-                                    Confirmar asistencia
-                                </span>
                             </a>
                         </div>
                     </div>
@@ -226,27 +224,20 @@
 </script>
 
 <style>
-    /* Título — azul pastel */
     .confirmar-titulo {
         color: #5b9ab5;
     }
-
-    /* Texto — azul pastel */
     .confirmar-texto {
         color: #5b9ab5;
     }
 
-    /* Botón — fondo rosado pastel, texto blanco */
+    /* Botón — borde rosado, sin fondo */
     .confirmar-btn {
-        background-color: #c48a9a;
-        color: #fff;
+        color: #c48a9a;
+        border-color: #c48a9a;
     }
     .confirmar-btn:hover {
-        background-color: #b07888;
-        box-shadow: 0 10px 25px rgba(196, 138, 154, 0.4);
-    }
-    .confirmar-btn svg {
-        stroke: #fff;
+        background-color: rgba(196, 138, 154, 0.08);
     }
 
     #card-principal-confirmar {
